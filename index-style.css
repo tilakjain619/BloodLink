@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+nav {
+    color: white;
+    background-color: #06070A;
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+nav a {
+    text-decoration: none;
+}
+.logo {
+    color: #ae0e28;
+    font-size: 2.2rem;
+    text-decoration: underline solid white 2px;
+    transition: 300ms;
+}
+.logo:hover{
+    text-decoration: underline solid #D64E76 2.5px;
+}
+#nav-p1 {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+#nav-p1 img {
+    margin-right: 1rem;
+    height: 4rem;
+}
+#nav-p2 a {
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: 500ms;
+}
+#nav-p2 a:hover {
+    /* font-size: 1.6rem; */
+    text-decoration: underline solid #B3003F 2px;
+}
+#nav-p3 {
+    margin-right: 6rem;
+    border: none;
+    border-radius: 5rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #B3003F;
+    transition: 300ms;
+    cursor: pointer;
+}
+#nav-p3:hover {
+    color: #B3003F;
+    background-color: #DFACA7;
+}
+
+
+#main-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+#heading {
+    position: relative;
+    margin-bottom: 23rem;
+    margin-top: 2.5rem;
+}
+.heading-text {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+}
+.heading-text p{
+    margin-bottom: 3rem;
+    font-style: italic;
+    text-decoration: underline dashed #DFACA7 2px;
+    font-size: 3rem;
+}
+.heading-text button{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    padding: 0.4rem 1.2rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: #B3003F;
+    color: #fff;
+    transition: 300ms;
+    cursor: pointer;
+}
+.heading-text button:hover {
+    color: #B3003F;
+    background-color: #DFACA7;
+}
+
+
+#info-card {
+    background-color: #fff;
+    height: 20rem;
+    width: 80%;
+    display: flex;
+    margin: 0 10rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5rem rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 90%;
+    margin: 0 9rem;
+}
+.info-cards {
+    display: grid;
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+
+.iocn_box_bg {
+    height: 6rem;
+    grid-column: 1 /span 6;
+}
+#info-card-1:hover #icon1{
+    height: 4rem;
+}
+#info-card-2:hover #icon2{
+    height: 3.5rem;
+}
+.info-cards:hover #icon3{
+    height: 3.5rem;
+}
+
+.info-cards-heading {
+    text-align: center;
+    grid-column: 7 /span 6;
+    position: absolute;
+    top: 20%;
+    margin-left: 8rem;
+    /* left: 10%; */
+}
+.info-cards-text {
+    grid-column: 1 /span 12;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+
+.icons {
+    position: absolute;
+    height: 3rem;
+    margin-top: 0.3rem;
+    margin-left: 1.3rem;
+    top: 4rem;
+    transition-duration: 400ms;
+}
+/* .icons:hover {
+    height: 3.5rem;
+} */
+#icon1{
+    margin-top: 0.5rem;
+    height: 3.5rem;
+}
+
+
+
+
+
+#info_1 {
+    margin: 0 8rem;
+    display: grid;
+}
+#info_1 img {
+    grid-column: 1 /span 6;
+    border-radius: 0.5rem;
+}
+.info_1-texts {
+    grid-column: 7 /span 6;
+    margin-left: 7rem;
+}
+#info_1-heading {
+    font-size: 3.5rem;
+    color: #B3003F;
+    margin-bottom: 2.5rem;
+}
+#info_1-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 3rem;
+}
+#info_1-points {
+    font-size: 1.3rem;
+    line-height: 3rem;
+    list-style-type: none;
+}
+
+.bulletPoint {
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    
+}
+
+#no-of-donors {
+    height: 10rem;
+    width: 70%;
+    margin-top: 3.5rem;
+    background-color: #06070A;
+    border-radius: 0.5rem;
+    /* margin-top: 7rem; */
+    color: #fff;
+    text-align: center;
+    /* padding-top: 3rem; */
+}
+#no-of-donors b {
+    font-size: 4rem;
+}
+#no-of-donors p {
+    font-size: 1.5rem;
+    color: #fff;
+    opacity: 0.7;
+}

@@ -191,9 +191,10 @@ nav a {
     margin-left: 7rem;
 }
 #info_1-heading {
-    font-size: 3.5rem;
+    font-size: 3.0rem;
     color: #B3003F;
     margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
 }
 #info_1-text {
     font-size: 1.5rem;
@@ -202,7 +203,7 @@ nav a {
     margin-bottom: 3rem;
 }
 #info_1-points {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 3rem;
     list-style-type: none;
 }

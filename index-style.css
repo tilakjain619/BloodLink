@@ -6,7 +6,7 @@
 
 nav {
     color: white;
-    background-color: #06070A;
+    background-color: #fff;
     padding: 1.5rem 1rem;
     display: flex;
     justify-content: space-between;
@@ -17,6 +17,8 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav a {
     text-decoration: none;
@@ -24,8 +26,9 @@ nav a {
 .logo {
     color: #ae0e28;
     font-size: 2.2rem;
-    text-decoration: underline solid white 2px;
+    text-decoration: solid white 2px;
     transition: 300ms;
+    font-weight: 650;
 }
 .logo:hover{
     text-decoration: underline solid #D64E76 2.5px;
@@ -42,8 +45,9 @@ nav a {
 #nav-p2 a {
     margin: 0 2rem;
     font-size: 1.5rem;
-    color: #fff;
+    color: #B3003F;
     transition: 500ms;
+    font-weight: 500;
 }
 #nav-p2 a:hover {
     /* font-size: 1.6rem; */
@@ -63,7 +67,8 @@ nav a {
 }
 #nav-p3:hover {
     color: #B3003F;
-    background-color: #DFACA7;
+    background-color: #fff;
+    border: 02px solid #B3003F;
 }
 
 

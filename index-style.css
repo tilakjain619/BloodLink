@@ -31,7 +31,8 @@ nav a {
     font-weight: 650;
 }
 .logo:hover{
-    text-decoration: underline solid #D64E76 2.5px;
+    font-size: 2.3rem;
+    transition: 300ms;
 }
 #nav-p1 {
     display: flex;
@@ -44,7 +45,7 @@ nav a {
 }
 #nav-p2 a {
     margin: 0 2rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #B3003F;
     transition: 500ms;
     font-weight: 500;
@@ -68,7 +69,7 @@ nav a {
 #nav-p3:hover {
     color: #B3003F;
     background-color: #fff;
-    border: 02px solid #B3003F;
+    border: 03px solid #B3003F;
 }
 
 

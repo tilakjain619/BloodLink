@@ -1,78 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;  
-}
-
-nav {
-    color: white;
-    background-color: #fff;
-    padding: 1.5rem 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* position: fixed; */
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    height: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-nav a {
-    text-decoration: none;
-}
-.logo {
-    color: #ae0e28;
-    font-size: 2.2rem;
-    text-decoration: solid white 2px;
-    transition: 300ms;
-    font-weight: 650;
-}
-.logo:hover{
-    font-size: 2.3rem;
-    transition: 300ms;
-}
-#nav-p1 {
-    display: flex;
-    align-items: center;
-    margin-left: 4rem;
-}
-#nav-p1 img {
-    margin-right: 1rem;
-    height: 4rem;
-}
-#nav-p2 a {
-    margin: 0 2rem;
-    font-size: 1.3rem;
-    color: #B3003F;
-    transition: 500ms;
-    font-weight: 500;
-}
-#nav-p2 a:hover {
-    /* font-size: 1.6rem; */
-    text-decoration: underline solid #B3003F 2px;
-}
-#nav-p3 {
-    margin-right: 6rem;
-    border: none;
-    border-radius: 5rem;
-    padding: 0.6rem 1.2rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #fff;
-    background-color: #B3003F;
-    transition: 300ms;
-    cursor: pointer;
-}
-#nav-p3:hover {
-    color: #B3003F;
-    background-color: #fff;
-    border: 03px solid #B3003F;
-}
-
-
 #main-img{
     position: relative;
     width: 100%;
@@ -147,14 +72,12 @@ nav a {
 .info-cards:hover #icon3{
     height: 3.5rem;
 }
-
 .info-cards-heading {
     text-align: center;
     grid-column: 7 /span 6;
     position: absolute;
     top: 20%;
     margin-left: 8rem;
-    /* left: 10%; */
 }
 .info-cards-text {
     grid-column: 1 /span 12;
@@ -162,7 +85,6 @@ nav a {
     font-size: 1.3rem;
     line-height: 2rem;
 }
-
 
 .icons {
     position: absolute;
@@ -172,15 +94,10 @@ nav a {
     top: 4rem;
     transition-duration: 400ms;
 }
-/* .icons:hover {
-    height: 3.5rem;
-} */
 #icon1{
     margin-top: 0.5rem;
     height: 3.5rem;
 }
-
-
 
 
 
@@ -265,6 +182,8 @@ nav a {
 
 } */
 
+
+
 #signUp-card {
     margin: 5rem  0 0 20rem;
     background-color: #ae0e28;
@@ -300,32 +219,4 @@ nav a {
     border: 2px solid white;
     background-color: black;
     color: #fff;
-}
-
-
-
-
-/* footer img {
-    position: relative;
-    width: 100%;
-    height: auto;
-    opacity: 0.1;
-} */
-
-/* #footer {
-    height: 25rem;
-    background-image: url(./imgs/img5.jpg);
-    display: flex;
-}
-.footer-content {
-    font-size: 1.5rem;
-    background-color: #06070aca;
-    color: #ffffffa9;
-} */
-
-footer {
-    background-color: #06070A;
-    color: #ffffffce;
-    padding: 1rem;
-    text-align: center;
 }

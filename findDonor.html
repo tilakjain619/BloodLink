@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Donor</title>
+    <link rel="stylesheet" href="./nav-footer.css">
+    <link rel="stylesheet" href="./findDonor.css">
+</head>
+<body>
+    <nav>
+        <a id="nav-p1" href="./index.html">
+            <img src="./imgs/logo-img.png" alt="logo">
+            <span class="logo">BloodLink</span>
+        </a>
+        <div id="nav-p2">
+            <a href="./index.html" id="home-page">Home</a>
+            <a href="#" id="findDonor-page">Find donor</a>
+            <!-- <a href="#">Contact us</a> -->
+            <a href="./funds.html" id="raiseFunds-page">Raise Funds</a>
+            <a href="#" id="aboutUs-page">About Us</a>
+        </div>
+        <button class="signIn-btn" id="nav-p3">SignIn</button>
+    </nav>
+    <!--7 Sept-->
+    <form method="post" id="findDonor">
+        <section id="search">
+            <p id="select-city">Select the City: </p>
+            <select name="city" id="city">
+                <option value="Select">Select</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
+            <p id="select-b_Grp">Select Blood group: </p>
+            <select name="b_Grp" id="b_Grp">
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select><br>
+        </section>
+        <section id="btns">
+            <button type="submit" id="submit-btn" disabled>Search</button>
+            <button type="reset" id="reset-btn">Reset</button>
+        </section>
+    </form>
+    <section id="donors-List">
+        <!--display the donors with same city and bloodGroup in this section-->
+        <h1>List of donors</h1>
+    </section>
+    <footer>
+        &copy; Copyright 2023 by BloodLink
+    </footer>
+</body>
+</html>

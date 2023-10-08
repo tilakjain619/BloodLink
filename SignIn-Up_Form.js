@@ -20,5 +20,5 @@ document.querySelector("#signUp-btn").addEventListener("click",function(){
     document.querySelector(".signUp_Form_section").classList.add("activeSignUp-bottom_button");
 });
 document.querySelector(".signUp_Form_section .close-btn").addEventListener("click",function(){
-    document.querySelector(".signUp_Form_section").classList.remove("activeSignUp");
+    document.querySelector(".signUp_Form_section").classList.remove("activeSignUp-bottom_button");
 });

@@ -40,8 +40,8 @@
                 <h2>Sign In</h2>
                 <form method="post" action="javascript:void(0)" class="signIn_Form">
                     <!--value of action attribute is remaining-->
-                    Email<input type="text" id="email" placeholder="Enter email"><br>
-                    Password<input type="password" id="password" placeholder="Enter password"><br>
+                    Email<input type="text" id="email" placeholder="e.g. ravikumar14@gmail.com"><br>
+                    Password<input type="password" id="password" placeholder="e.g. raVi99"><br>
                     <button class="signIn-btn" id="signIn_Form_btn">Sign In</button><br>
                     <a href="#">Forgot password</a>
                 </form>
@@ -52,13 +52,13 @@
                 <div class="close-btn">&times;</div>
                 <h2>Sign Up</h2>
                 <form method="post" action="target" class="signUp_Form">
-                    Name <input type="text" id="name" placeholder="e.g. Ravi Kumar" required><br>
-                    DOB <input type="date" id="dob" required><br>
-                    Gender <select name="gender" id="gender" required>
+                    <label class="align-inputBox">Name <input type="text" id="name" placeholder="e.g. Ravi Kumar" required><br></label>
+                    <label class="align-inputBox">DOB <input type="date" id="dob" required><br></label>
+                    <label class="align-inputBox">Gender <select name="gender" id="gender" required>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
-                    </select><br>
-                    Blood type <select name="b_Grp" id="b_Grp" required>
+                    </select><br></label>
+                    <label class="align-inputBox">Blood type <select name="b_Grp" id="b_Grp" required>
                         <option value="O+">O+</option>
                         <option value="O-">O-</option>
                         <option value="A+">A+</option>
@@ -67,11 +67,11 @@
                         <option value="B-">B-</option>
                         <option value="AB+">AB+</option>
                         <option value="AB-">AB-</option>
-                    </select><br>
-                    Mobile No. <input type="number" id="mobileNo" placeholder="e.g. 9633529635" required><br>
-                    Email <input type="text" id="email" placeholder="e.g. ravikumar14@gmail.com" required><br>
-                    Create password <input type="password" id="password" placeholder="e.g. raVi99" required><br>
-                    <textarea name="medical-history" id="medical-history" cols="50" rows="5" placeholder="Give details of your allergies, medications, or chronic health conditions (If any)."></textarea><br>
+                    </select><br></label>
+                    <label class="align-inputBox">Mobile No. <input type="number" id="mobileNo" placeholder="e.g. 9633529635" required><br></label>
+                    <label class="align-inputBox">Email <input type="text" id="email" placeholder="e.g. ravikumar14@gmail.com" required><br></label>
+                    <label class="align-inputBox">Password <input type="password" id="password" placeholder="e.g. raVi99" required><br></label>
+                    <!-- <label class="align-inputBox">Optional Information <textarea name="medical-history" id="medical-history" cols="50" rows="5" placeholder="Give details of your allergies, medications, or chronic health conditions (If any)."></textarea><br></label> -->
                     <input type="checkbox" name="privacyPolicy" value="1" class="privacyPolicy" checked  style="width: 3%;" required>I have read and understood the <a href="#" id="privacyPolicy_link">privacy policy</a><br>
                     <!--Create a page for Privacy policy-->
                     <button type="submit" class="signIn-btn" id="signUp_Form_btn">Sign Up</button>

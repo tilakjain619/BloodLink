@@ -1,4 +1,4 @@
-#main-img{
+#main-img {
     position: relative;
     width: 100%;
     height: auto;
@@ -23,7 +23,7 @@
     text-decoration: underline dashed #DFACA7 2px;
     font-size: 3rem;
 }
-.heading-text button{
+.heading-text button {
     margin-top: 2rem;
     font-size: 1.4rem;
     padding: 0.4rem 1.2rem;
@@ -40,7 +40,7 @@
 }
 
 /* Sign In Form */
-.signIn_Form_section{
+.signIn_Form_section {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -56,14 +56,14 @@
                 transform 200ms ease-in-out 0ms;
     z-index: 2;
 }
-.activeSignIn{
+.activeSignIn {
     transform: translate(-50%, -50%) scale(1);
     transition: top 0ms ease-in-out 0ms,
                 opacity 200ms ease-in-out 0ms,
                 transform 200ms ease-in-out 0ms;
     visibility: visible;
 }
-.close-btn{
+.close-btn {
     position: absolute;
     top: 1rem;
     right: 1.2rem;
@@ -76,30 +76,31 @@
     border-radius: 50%;
     cursor: pointer;
 }
-.signIn_Form_section h2{
+.signIn_Form_section h2 {
     text-align: center;
     color: #B3003F;
     margin: 0.5rem 0 1.5rem;
     font-size: 2.5rem;
 }
-.signIn_Form{
+.signIn_Form {
     font-size: 1.5rem; 
 }
-.signIn_Form input{
+.signIn_Form input {
     margin-top: 0.7rem;
     display: block;
     width: 93%;
     padding: 0.8rem;
     border: 1px solid #aaa;
     border-radius: 0.5rem;
+    font-size: 1.1rem;
 }
-#signIn_Form_btn{
+#signIn_Form_btn {
     width: 99%;
     padding: 0.4rem 0;
     border-radius: 0.2rem;
     margin-bottom: 1rem;
 }
-.signIn_Form a{
+.signIn_Form a {
     display: block;
     text-align: right;
     color: #1a79ca;
@@ -107,20 +108,8 @@
     margin-right: 0.4rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Sign Up Form */
-.signUp_Form_section{
+.signUp_Form_section {
     position: fixed;
     left: 50%;
     visibility: hidden;
@@ -135,7 +124,7 @@
                 transform 200ms ease-in-out 0ms;
     z-index: 2;
 }
-.activeSignUp{
+.activeSignUp {
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: top 0ms ease-in-out 0ms,
@@ -143,7 +132,7 @@
                 transform 200ms ease-in-out 0ms;
     visibility: visible;
 }
-.activeSignUp-bottom_button{
+.activeSignUp-bottom_button {
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: top 0ms ease-in-out 0ms,
@@ -151,7 +140,7 @@
                 transform 200ms ease-in-out 0ms;
     visibility: visible;
 }
-.close-btn{
+.close-btn {
     position: absolute;
     top: 1rem;
     right: 1.2rem;
@@ -164,22 +153,38 @@
     border-radius: 50%;
     cursor: pointer;
 }
-.signUp_Form_section h2{
+.signUp_Form_section h2 {
     text-align: center;
     color: #B3003F;
     margin: 0.5rem 0 1.5rem;
     font-size: 2.5rem;
 }
-.signUp_Form{
+.signUp_Form {
     font-size: 1.5rem;
 }
-.signUp_Form input, select, textarea{
-    margin-top: 0.7rem;
+.signUp_Form input:not(.privacyPolicy), select, textarea {
+    position: absolute;
+    left: 35%;
     padding: 0.6rem;
     border: 1px solid #aaa;
     border-radius: 0.3rem;
+    width: 50%;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
 }
-#signUp_Form_btn, .reset-btn{
+.signUp_Form select {
+    width: 54%;
+}
+.privacyPolicy {
+    margin-right: 0.5rem;
+}
+.align-inputBox {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#signUp_Form_btn, .reset-btn {
     margin-top: 0.8rem;
     width: 20%;
     padding: 0.4rem 0;
@@ -187,14 +192,15 @@
     margin-bottom: 1rem;
     cursor: pointer;
 }
-.signUp_Form a{
+.signUp_Form a {
     text-align: right;
     color: #1a79ca;
     text-decoration: none;
     margin-right: 0.4rem;
 }
-
-
+.reset-btn {
+    font-size: 1.1rem;
+}
 
 #info-card {
     background-color: #fff;

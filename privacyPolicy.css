@@ -1,0 +1,26 @@
+body {
+    background-color: lightgrey;
+}
+main {
+    margin: 6.5rem 13rem 0.5rem 13rem;
+    font-size: 1.2rem;
+}
+
+
+h1{
+    color: #670606;
+}
+h2{
+    color: #B3003F;
+}
+
+p, ul{
+    margin-left: 2rem;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+textarea {
+    width: 80%;
+    height: 15rem;
+}

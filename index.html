@@ -34,6 +34,17 @@
                 <!-- <p>Give Blood get Blessings</p> -->
                 <button>Join as Donor</button>
             </div>
+            <!--SignIn Form-->
+            <section class="signIn_Form_section">
+                <div class="close-btn">&times;</div>
+                <h2>Sign In</h2>
+                <form method="post" action="target" class="signIn_Form">
+                    Email<input type="text" id="email" placeholder="Enter email"><br>
+                    Password<input type="password" id="password" placeholder="Enter password"><br>
+                    <button class="signIn-btn" id="signIn_Form_btn">Sign In</button><br>
+                    <a href="#">Forgot password</a>
+                </form>
+            </section>
             <section id="info-card">
                 <div class="info-cards" id="info-card-1">
                     <!-- link this part to the donor finding form -->
@@ -116,5 +127,6 @@
     <footer>
         &copy; Copyright 2023 by BloodLink
     </footer>
+    <script src="./SignIn_Form.js"></script>
 </body>
 </html>

@@ -40,6 +40,79 @@
 }
 
 
+.signIn_Form_section{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    opacity: 0;
+    width: 30rem;
+    transform: translate(-50%, -50%) scale(1.25);
+    padding: 2rem 3rem;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 1rem 100rem rgba(0, 0, 0,0.6);
+    border-radius: 2rem;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+    z-index: 2;
+}
+.formActive{
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+}
+.close-btn{
+    position: absolute;
+    top: 1rem;
+    right: 1.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.signIn_Form_section h2{
+    text-align: center;
+    color: #B3003F;
+    margin: 0.5rem 0 1.5rem;
+    font-size: 2.5rem;
+}
+.signIn_Form{
+    /* margin: 2rem 0rem; */
+    font-size: 1.5rem; 
+}
+.signIn_Form input{
+    margin-top: 0.7rem;
+    display: block;
+    width: 93%;
+    padding: 0.8rem;
+    border: 1px solid #aaa;
+    border-radius: 0.5rem;
+}
+#signIn_Form_btn{
+    width: 99%;
+    padding: 0.4rem 0;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+.signIn_Form a{
+    display: block;
+    text-align: right;
+    color: #1a79ca;
+    text-decoration: none;
+    margin-right: 0.4rem;
+}
+/* #signIn_Form_btn{
+
+} */
+
+
 #info-card {
     background-color: #fff;
     height: 20rem;

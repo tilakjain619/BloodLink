@@ -52,8 +52,7 @@ nav a {
 #nav-p2 a:hover {
     text-decoration: underline solid #B3003F 2px;
 }
-#nav-p3 {
-    margin-right: 6rem;
+.signIn-btn {
     border: none;
     border-radius: 5rem;
     padding: 0.6rem 1.2rem;
@@ -64,9 +63,11 @@ nav a {
     transition: 300ms;
     cursor: pointer;
     border: 03px solid #B3003F;
-
 }
-#nav-p3:hover {
+#nav-p3 {
+    margin-right: 6rem;
+}
+.signIn-btn:hover {
     color: #B3003F;
     background-color: #fff;
 }

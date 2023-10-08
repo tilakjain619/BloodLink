@@ -39,12 +39,12 @@
     background-color: #DFACA7;
 }
 
-
+/* Sign In Form */
 .signIn_Form_section{
-    position: absolute;
-    top: 150%;
+    position: fixed;
+    top: 50%;
     left: 50%;
-    opacity: 0;
+    visibility: hidden;
     width: 30rem;
     transform: translate(-50%, -50%) scale(1.25);
     padding: 2rem 3rem;
@@ -53,16 +53,15 @@
     border-radius: 2rem;
     transition: top 0ms ease-in-out 200ms,
                 opacity 200ms ease-in-out 0ms,
-                transform 20ms ease-in-out 0ms;
+                transform 200ms ease-in-out 0ms;
     z-index: 2;
 }
-.formActive{
-    top: 50%;
-    opacity: 1;
+.activeSignIn{
     transform: translate(-50%, -50%) scale(1);
     transition: top 0ms ease-in-out 0ms,
                 opacity 200ms ease-in-out 0ms,
-                transform 20ms ease-in-out 0ms;
+                transform 200ms ease-in-out 0ms;
+    visibility: visible;
 }
 .close-btn{
     position: absolute;
@@ -84,7 +83,6 @@
     font-size: 2.5rem;
 }
 .signIn_Form{
-    /* margin: 2rem 0rem; */
     font-size: 1.5rem; 
 }
 .signIn_Form input{
@@ -108,9 +106,94 @@
     text-decoration: none;
     margin-right: 0.4rem;
 }
-/* #signIn_Form_btn{
 
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sign Up Form */
+.signUp_Form_section{
+    position: fixed;
+    left: 50%;
+    visibility: hidden;
+    width: 30rem;
+    transform: translate(-50%, -50%) scale(1.25);
+    padding: 2rem 3rem;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 1rem 100rem rgba(0, 0, 0,0.6);
+    border-radius: 2rem;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+    z-index: 2;
+}
+.activeSignUp{
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+    visibility: visible;
+}
+.activeSignUp-bottom_button{
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+    visibility: visible;
+}
+.close-btn{
+    position: absolute;
+    top: 1rem;
+    right: 1.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.signUp_Form_section h2{
+    text-align: center;
+    color: #B3003F;
+    margin: 0.5rem 0 1.5rem;
+    font-size: 2.5rem;
+}
+.signUp_Form{
+    font-size: 1.5rem;
+}
+.signUp_Form input, select, textarea{
+    margin-top: 0.7rem;
+    padding: 0.6rem;
+    border: 1px solid #aaa;
+    border-radius: 0.3rem;
+}
+#signUp_Form_btn, .reset-btn{
+    margin-top: 0.8rem;
+    width: 20%;
+    padding: 0.4rem 0;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.signUp_Form a{
+    text-align: right;
+    color: #1a79ca;
+    text-decoration: none;
+    margin-right: 0.4rem;
+}
+
 
 
 #info-card {
@@ -279,7 +362,7 @@
 #signUp-card-subtext2 {
     margin-left: 4rem;
 }
-#signUp-card button {
+#signUp-btn {
     font-size: 1.5rem;
     width: 7rem;
     height: 3rem;
@@ -288,8 +371,9 @@
     margin-top: 1rem;
     transition: 300ms;
 }
-#signUp-card button:hover {
+#signUp-btn:hover {
     border: 2px solid white;
     background-color: black;
     color: #fff;
+    cursor: pointer;
 }

@@ -288,11 +288,14 @@
     margin-bottom: 3rem;
 }
 #info_1-points {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 2.5rem;
     list-style-type: none;
 }
-
+#point1, #point2, #point3 {
+    display: flex;
+    align-items: center;
+}
 .bulletPoint {
     height: 1.5rem;
     margin-right: 0.5rem;
